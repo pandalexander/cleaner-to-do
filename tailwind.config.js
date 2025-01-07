@@ -69,6 +69,7 @@ export default {
       "spacing-8": "var(--spacing-8)",
       "spacing-9": "var(--spacing-9)",
       "spacing-10": "var(--spacing-10)",
+      "spacing-11": "var(--spacing-11)",
     },
   },
   plugins: [require("tailwindcss-animate")],
