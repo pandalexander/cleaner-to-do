@@ -1,12 +1,21 @@
 import "./App.css";
-
-import Navbar from "./custom-components/Navbar.jsx";
+import { Link, Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <h1>hey from app</h1>
-      <Navbar />
+      <div className="min-h-screen flex flex-col">
+        <div
+          className="flex justify-evenly p-spacing-2"
+          data-testid="header-menu"
+        >
+          <Link to="home">Home</Link>
+        </div>
+
+        <div className="flex flex-col flex-1">
+          <Outlet />
+        </div>
+      </div>
     </>
   );
 }
