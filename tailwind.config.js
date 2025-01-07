@@ -10,6 +10,12 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        coolerOne: "#29335cff",
+        coolerTwo: "#f25f5cff",
+        coolerThree: "#f3a712ff",
+        coolerFour: "#f0cea0ff",
+        coolerFive: "#534d41ff",
+
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
