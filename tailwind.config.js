@@ -10,11 +10,11 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
-        coolerOne: "#29335cff",
-        coolerTwo: "#f25f5cff",
-        coolerThree: "#f3a712ff",
-        coolerFour: "#f0cea0ff",
-        coolerFive: "#534d41ff",
+        coolerOne: "#FAF9DC",
+        coolerTwo: "#D89A9E",
+        coolerThree: "#001F3F",
+        coolerFour: "#FFFFFF",
+        coolerFive: "#254441",
 
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
