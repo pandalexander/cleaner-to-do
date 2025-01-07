@@ -115,3 +115,166 @@
     @apply bg-background text-foreground;
   }
 }
+
+.taviraj-thin {
+  font-family: "Taviraj", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.taviraj-extralight {
+  font-family: "Taviraj", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.taviraj-light {
+  font-family: "Taviraj", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.taviraj-regular {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.taviraj-medium {
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.taviraj-semibold {
+  font-family: "Taviraj", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.taviraj-bold {
+  font-family: "Taviraj", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.taviraj-extrabold {
+  font-family: "Taviraj", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.taviraj-black {
+  font-family: "Taviraj", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.taviraj-thin-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.taviraj-extralight-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.taviraj-light-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.taviraj-regular-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.taviraj-medium-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.taviraj-semibold-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.taviraj-bold-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.taviraj-extrabold-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.taviraj-black-italic {
+  font-family: "Taviraj", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+:root {
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 24px;
+  --spacing-5: 32px;
+  --spacing-6: 40px;
+  --spacing-7: 48px;
+  --spacing-8: 56px;
+  --spacing-9: 64px;
+  --spacing-10: 72px;
+
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--spacing-7);
+}
+
+h2 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--spacing-6);
+}
+
+h3 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--spacing-5);
+}
+
+* {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--spacing-2);
+}
