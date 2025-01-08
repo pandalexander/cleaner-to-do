@@ -25,7 +25,7 @@ function App() {
             <div className="flex justify-between py-spacing-1 items-center">
               <div className="max-w-[150px] ">
                 <Link to="home">
-                  <img src={myLogo} alt="" />
+                  <img src={myLogo} alt="Company logo" />
                 </Link>
               </div>
 
@@ -50,25 +50,25 @@ function App() {
                         asChild
                         className="flex-1 p-spacing-3  font-normal rounded-full hover:bg-coolerFour  bg-coolerOne text-coolerThree"
                       >
-                        <Link to="about">Home</Link>
+                        <Link to="home">Home</Link>
                       </Button>
                       <Button
                         asChild
                         className="flex-1 p-spacing-3 font-normal rounded-full hover:bg-coolerFour bg-coolerOne text-coolerThree"
                       >
-                        <Link to="about">Services and prices</Link>
+                        <Link to="services">Services and prices</Link>
                       </Button>
-                      <Button
+                      {/* <Button
                         asChild
                         className="flex-1 p-spacing-3  font-normal rounded-full hover:bg-coolerFour bg-coolerOne text-coolerThree"
                       >
                         <Link to="about">About</Link>
-                      </Button>
+                      </Button> */}
                       <Button
                         asChild
                         className="flex-1 p-spacing-3 font-normal rounded-full hover:bg-coolerFour bg-coolerOne text-coolerThree"
                       >
-                        <Link to="about">Schedule a cleaning</Link>
+                        <Link to="services">Schedule a cleaning</Link>
                       </Button>
                     </div>
                   </div>
@@ -84,17 +84,17 @@ function App() {
                     Home
                   </Link>
                   <Link
-                    to="about"
+                    to="services"
                     className="text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     Services and prices
                   </Link>
-                  <Link
+                  {/* <Link
                     to="about"
                     className="text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     About
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="hidden md:block">
@@ -102,7 +102,7 @@ function App() {
                   asChild
                   className="font-normal px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerTwo text-coolerOne  hover:text-coolerOne"
                 >
-                  <Link to="about">Schedule a cleaning</Link>
+                  <Link to="services">Schedule a cleaning</Link>
                 </Button>
               </div>
             </div>
