@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="min-h-screen flex flex-col ">
         <header
-          className="bg-coolerOne text-coolerTwo px-spacing-2 "
+          className="bg-coolerOne text-coolerTwo px-spacing-2 sticky top-[0px] shadow-xl"
           data-testid="header-menu"
         >
           <nav className="max-w-5xl mx-auto">
@@ -38,33 +38,33 @@ function App() {
 
                   <div
                     className={
-                      "bg-coolerFive max-w-[250px] menu " +
-                      (hamburgerClicked ? "" : "hidden")
+                      "bg-coolerTwo rounded-lg max-w-[250px] " +
+                      (hamburgerClicked ? "menu" : "menu-hidden")
                     }
                   >
                     {" "}
-                    <div className="flex flex-col ">
+                    <div className="flex flex-col gap-spacing-2 p-spacing-3">
                       <Button
                         asChild
-                        className="flex-1 p-spacing-3 rounded-none font-normal bg-coolerFive text-coolerOne hover:bg-coolerOne hover:text-coolerThree"
+                        className="flex-1 p-spacing-3  font-normal rounded-full hover:bg-coolerFour  bg-coolerOne text-coolerThree"
                       >
                         <Link to="about">Home</Link>
                       </Button>
                       <Button
                         asChild
-                        className="flex-1 p-spacing-3 rounded-none font-normal bg-coolerFive text-coolerOne hover:bg-coolerOne hover:text-coolerThree"
+                        className="flex-1 p-spacing-3 font-normal rounded-full hover:bg-coolerFour bg-coolerOne text-coolerThree"
                       >
                         <Link to="about">Services and prices</Link>
                       </Button>
                       <Button
                         asChild
-                        className="flex-1 p-spacing-3 rounded-none font-normal bg-coolerFive text-coolerOne hover:bg-coolerOne hover:text-coolerThree"
+                        className="flex-1 p-spacing-3  font-normal rounded-full hover:bg-coolerFour bg-coolerOne text-coolerThree"
                       >
                         <Link to="about">About</Link>
                       </Button>
                       <Button
                         asChild
-                        className="flex-1 p-spacing-3 rounded-none font-normal bg-coolerFive text-coolerOne hover:bg-coolerOne hover:text-coolerThree"
+                        className="flex-1 p-spacing-3 font-normal rounded-full hover:bg-coolerFour bg-coolerOne text-coolerThree"
                       >
                         <Link to="about">Schedule a cleaning</Link>
                       </Button>
@@ -98,7 +98,7 @@ function App() {
               <div className="hidden md:block">
                 <Button
                   asChild
-                  className="font-normal px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerOne text-coolerOne  hover:text-coolerThree"
+                  className="font-normal px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerTwo text-coolerOne  hover:text-coolerOne"
                 >
                   <Link to="about">Schedule a cleaning</Link>
                 </Button>

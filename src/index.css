@@ -282,12 +282,23 @@ body {
   font-size: var(--spacing-4);
 }
 
+.menu-hidden {
+  /* display: none; */
+  position: absolute;
+  top: 100px;
+  right: 35px;
+
+  max-height: 0 !important;
+  transition: max-height 0.5s ease;
+  overflow: hidden;
+}
+
 .menu {
   position: absolute;
   top: 100px;
   right: 35px;
-}
 
-.menu-hidden {
-  display: none;
+  max-height: 500px;
+  transition: max-height 0.5s ease;
+  overflow: hidden;
 }
