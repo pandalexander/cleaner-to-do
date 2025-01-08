@@ -8,13 +8,11 @@ const Home = () => {
           <h1 className="text-coolerOne">
             Making Your Home Sparkle, One Checkmark ✅ at a Time
           </h1>
-          <p className="text-coolerOne">
+          <p className=" text-coolerOne text-center mt-spacing-4 mb-spacing-4 important-para">
             Your to-do list is long enough. Let To-Do List Cleaner LLC transform
-            your home into the pristine sanctuary you deserve.
-          </p>
-          <p className="text-coolerOne mt-spacing-5 mb-spacing-4">
-            As Denver's trusted cleaning specialists, we believe every spotless
-            surface brings you one step closer to peace of mind.
+            your home into the pristine sanctuary you deserve. As Denver's
+            trusted cleaning specialists, we believe every spotless surface
+            brings you one step closer to peace of mind.
           </p>
         </section>
 

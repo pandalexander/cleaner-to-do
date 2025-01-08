@@ -259,7 +259,7 @@ h1 {
   font-weight: 400;
   font-style: bold;
   /* font-size: 7vw !important; */
-  font-size: clamp(2.5rem, 5vw, 5rem) !important;
+  font-size: clamp(2rem, 5vw, 5rem) !important;
 }
 
 h2 {
@@ -281,6 +281,10 @@ h3 {
 p {
   /* font-size: 4vw !important; */
   font-size: clamp(1.25rem, 1.5vw, 3rem) !important;
+}
+
+.important-para {
+  font-size: clamp(1.25rem, 2vw, 2rem) !important;
 }
 
 button {
