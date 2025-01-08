@@ -2,13 +2,14 @@ import "./App.css";
 import { Link, Outlet } from "react-router-dom";
 import myLogo from "./assets/logo-transparent.png";
 import { Button } from "@/components/ui/button";
+import menuIcon from "./assets/menu.svg";
 
 function App() {
   return (
     <>
       <div className="min-h-screen flex flex-col ">
         <header
-          className="bg-white text-coolerTwo px-spacing-2 "
+          className="bg-coolerOne text-coolerTwo px-spacing-2 "
           data-testid="header-menu"
         >
           <nav className="max-w-5xl mx-auto">
@@ -18,9 +19,12 @@ function App() {
                   <img src={myLogo} alt="" />
                 </Link>
               </div>
-              <div className="w-full md:hidden">
-                <h1>i am hidden</h1>
+              <div className="md:hidden mr-spacing-4">
+                <Link to="about">
+                  <img src={menuIcon} alt="" className="min-w-[35px]" />
+                </Link>
               </div>
+
               <div className="hidden md:flex justify-between items-center gap-x-spacing-7">
                 <div className="flex justify-between items-center gap-x-spacing-7">
                   <Link
@@ -46,7 +50,7 @@ function App() {
               <div className="hidden md:block">
                 <Button
                   asChild
-                  className="px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerTwo hover:text-black"
+                  className="font-normal px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerTwo hover:text-black"
                 >
                   <Link to="about">Schedule a cleaning</Link>
                 </Button>

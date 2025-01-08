@@ -255,27 +255,27 @@
 h1 {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: var(--spacing-7);
+  font-style: bold;
+  font-size: var(--spacing-8);
 }
 
 h2 {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: var(--spacing-6);
+  font-size: var(--spacing-7);
 }
 
 h3 {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: var(--spacing-5);
+  font-size: var(--spacing-6);
 }
 
-* {
+body {
   font-family: "Taviraj", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: var(--spacing-2);
+  font-size: var(--spacing-4);
 }
