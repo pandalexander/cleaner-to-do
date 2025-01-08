@@ -258,28 +258,45 @@ h1 {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: bold;
-  font-size: var(--spacing-8);
+  /* font-size: 7vw !important; */
+  font-size: clamp(2.5rem, 5vw, 5rem) !important;
 }
 
 h2 {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: var(--spacing-7);
+  /* font-size: 6vw !important; */
+  font-size: clamp(2rem, 4vw, 4rem) !important;
 }
 
 h3 {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: var(--spacing-6);
+  /* font-size: 5vw !important; */
+  font-size: clamp(1.5rem, 3vw, 3.5rem) !important;
+}
+
+p {
+  /* font-size: 4vw !important; */
+  font-size: clamp(1.25rem, 1.5vw, 3rem) !important;
+}
+
+button {
+  /* font-size: 4vw !important; */
+  font-size: clamp(1rem, 1vw, 3rem) !important;
+}
+
+section {
+  padding-top: 10vw !important;
+  padding-bottom: 10vw !important;
 }
 
 body {
   font-family: "Taviraj", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: var(--spacing-4);
 }
 
 .menu-hidden {

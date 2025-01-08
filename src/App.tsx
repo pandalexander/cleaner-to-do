@@ -23,7 +23,7 @@ function App() {
         >
           <nav className="max-w-5xl mx-auto">
             <div className="flex justify-between py-spacing-1 items-center">
-              <div className="max-w-[150px] ">
+              <div className="max-w-[120px]">
                 <Link to="home">
                   <img src={myLogo} alt="Company logo" />
                 </Link>
