@@ -18,7 +18,7 @@ function App() {
     <>
       <div className="min-h-screen flex flex-col ">
         <header
-          className="bg-coolerOne text-coolerTwo px-spacing-2 sticky top-[0px] shadow-xl"
+          className="bg-coolerOne text-coolerTwo px-spacing-2 shadow-xl"
           data-testid="header-menu"
         >
           <nav className="max-w-5xl mx-auto">
