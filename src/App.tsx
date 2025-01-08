@@ -29,19 +29,19 @@ function App() {
                 <div className="flex justify-between items-center gap-x-spacing-7">
                   <Link
                     to="home"
-                    className="text-lg text-coolerFive hover:text-coolerTwo"
+                    className="text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     Home
                   </Link>
                   <Link
                     to="about"
-                    className="text-lg text-coolerFive hover:text-coolerTwo"
+                    className="text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     Services and prices
                   </Link>
                   <Link
                     to="about"
-                    className="text-lg text-coolerFive hover:text-coolerTwo"
+                    className="text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     About
                   </Link>
@@ -50,7 +50,7 @@ function App() {
               <div className="hidden md:block">
                 <Button
                   asChild
-                  className="font-normal px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerTwo hover:text-black"
+                  className="font-normal px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerOne hover:text-coolerThree"
                 >
                   <Link to="about">Schedule a cleaning</Link>
                 </Button>
