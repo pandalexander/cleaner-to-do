@@ -281,3 +281,13 @@ body {
   font-style: normal;
   font-size: var(--spacing-4);
 }
+
+.menu {
+  position: absolute;
+  top: 100px;
+  right: 35px;
+}
+
+.menu-hidden {
+  display: none;
+}
