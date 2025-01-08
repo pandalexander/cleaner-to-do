@@ -3,6 +3,8 @@ import { Link, Outlet } from "react-router-dom";
 import myLogo from "./assets/logo-transparent.png";
 import { Button } from "@/components/ui/button";
 import menuIcon from "./assets/menu.svg";
+import xIcon from "./assets/x.svg";
+
 import { useState } from "react";
 
 function App() {
@@ -30,7 +32,7 @@ function App() {
               <div className="md:hidden mr-spacing-4">
                 <div>
                   <img
-                    src={menuIcon}
+                    src={hamburgerClicked ? xIcon : menuIcon}
                     alt=""
                     className="min-w-[35px] ml-auto"
                     onClick={handleHamburgerClick}
