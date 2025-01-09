@@ -2,12 +2,12 @@ import "./home.css";
 
 const Services = () => {
   return (
-    <div className=" bg-coolerOne">
-      <div className="bg-coolerThree">
+    <div className=" bg-white">
+      <div className="bg-white">
         <section className="flex flex-col items-center justify-center">
-          <h1 className="text-coolerOne">Our Services & Pricing</h1>
+          <h1 className="text-coolerThree">Our Services & Pricing</h1>
 
-          <p className="text-coolerOne mt-spacing-5 mb-spacing-4 text-center">
+          <p className="text-coolerThree mt-spacing-5 mb-spacing-4 text-center">
             Transparent pricing for every need. All services include our
             signature checklist approach.
           </p>
@@ -15,7 +15,12 @@ const Services = () => {
 
         <section className="bg-coolerTwo flex flex-col justify-center items-center">
           <h1 className="text-coolerOne text-center">Cleaning Services</h1>
-          <div className="sm:pl-spacing-5 lg:grid lg:grid-cols-2 lg:gap-spacing-9">
+          <div
+            className="
+          grid sm:grid-cols-2 
+          sm:gap-spacing-3
+          md:gap-spacing-6 lg:gap-spacing-9"
+          >
             <div>
               <div className="">
                 <h3 className="">Basic Clean</h3>

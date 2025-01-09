@@ -17,10 +17,7 @@ function App() {
   return (
     <>
       <div className="min-h-screen">
-        <header
-          className="bg-white text-coolerTwo shadow-xl"
-          data-testid="header-menu"
-        >
+        <header className="bg-white text-coolerTwo" data-testid="header-menu">
           <nav className="max-w-5xl mx-auto px-spacing-2">
             <div className="flex justify-between py-spacing-1 items-center">
               <div className="max-w-[120px]">
@@ -79,13 +76,13 @@ function App() {
                 <div className="flex justify-between items-center gap-x-spacing-7">
                   <Link
                     to="home"
-                    className="font-sans font-bold text-lg text-coolerThree hover:text-coolerTwo"
+                    className=" font-bold text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     Home
                   </Link>
                   <Link
                     to="services"
-                    className="font-sans font-bold text-lg text-coolerThree hover:text-coolerTwo"
+                    className="font-bold text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     Services and prices
                   </Link>
@@ -100,7 +97,7 @@ function App() {
               <div className="hidden md:block">
                 <Button
                   asChild
-                  className="font-bold text-lg font-sans px-spacing-3 py-spacing-1 rounded-full bg-coolerFive hover:bg-coolerTwo text-white  hover:text-coolerOne"
+                  className="font-bold text-lg px-spacing-3 py-spacing-1 rounded-full bg-coolerFive hover:bg-coolerTwo text-white  hover:text-coolerOne"
                 >
                   <Link to="services">Schedule a cleaning</Link>
                 </Button>
@@ -112,6 +109,15 @@ function App() {
         <div className="flex flex-col flex-1">
           <Outlet />
         </div>
+        <section className="bg-coolerThree">
+          <h2 className="text-coolerOne">Why Denver Trusts Us</h2>
+          <div className="">
+            <p className="text-coolerOne">
+              Family-owned • Professional • Insured
+            </p>
+            <button className="text-coolerTwo">Schedule Now</button>
+          </div>
+        </section>
       </div>
     </>
   );

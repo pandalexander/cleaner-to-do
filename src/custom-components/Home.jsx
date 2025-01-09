@@ -27,7 +27,7 @@ const Home = () => {
               <div className="flex justify-center md:block">
                 <Button
                   asChild
-                  className=" font-bold text-lg font-sans px-spacing-3 py-spacing-1 rounded-full bg-coolerFive hover:bg-coolerTwo text-white  hover:text-coolerOne "
+                  className=" font-bold text-lg px-spacing-3 py-spacing-1 rounded-full bg-coolerFive hover:bg-coolerTwo text-white  hover:text-coolerOne "
                 >
                   {/* <Link to="/services">Learn about our services</Link> */}
                   <a className="hover:cursor-pointer ">
@@ -54,16 +54,6 @@ const Home = () => {
             </div>
           </div>
           <button className="">View All Services</button>
-        </section>
-
-        <section className="bg-coolerThree">
-          <h2 className="text-coolerOne">Why Denver Trusts Us</h2>
-          <div className="">
-            <p className="text-coolerOne">
-              Family-owned • Professional • Insured
-            </p>
-            <button className="text-coolerTwo">Schedule Now</button>
-          </div>
         </section>
       </div>
     </div>
