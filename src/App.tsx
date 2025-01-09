@@ -16,12 +16,12 @@ function App() {
   };
   return (
     <>
-      <div className="min-h-screen flex flex-col ">
+      <div className="min-h-screen">
         <header
-          className="bg-coolerOne text-coolerTwo px-spacing-2 shadow-xl"
+          className="bg-white text-coolerTwo shadow-xl"
           data-testid="header-menu"
         >
-          <nav className="max-w-5xl mx-auto">
+          <nav className="max-w-5xl mx-auto px-spacing-2">
             <div className="flex justify-between py-spacing-1 items-center">
               <div className="max-w-[120px]">
                 <Link to="home">
@@ -79,13 +79,13 @@ function App() {
                 <div className="flex justify-between items-center gap-x-spacing-7">
                   <Link
                     to="home"
-                    className="text-lg text-coolerThree hover:text-coolerTwo"
+                    className="font-sans font-bold text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     Home
                   </Link>
                   <Link
                     to="services"
-                    className="text-lg text-coolerThree hover:text-coolerTwo"
+                    className="font-sans font-bold text-lg text-coolerThree hover:text-coolerTwo"
                   >
                     Services and prices
                   </Link>
@@ -100,7 +100,7 @@ function App() {
               <div className="hidden md:block">
                 <Button
                   asChild
-                  className="font-normal px-spacing-4 py-spacing-2 rounded-full bg-coolerFive hover:bg-coolerTwo text-coolerOne  hover:text-coolerOne"
+                  className="font-bold text-lg font-sans px-spacing-3 py-spacing-1 rounded-full bg-coolerFive hover:bg-coolerTwo text-white  hover:text-coolerOne"
                 >
                   <Link to="services">Schedule a cleaning</Link>
                 </Button>

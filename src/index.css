@@ -237,7 +237,7 @@
 }
 
 :root {
-  background-color: #faf9dc;
+  /* background-color: #faf9dc; */
 
   --spacing-1: 8px;
   --spacing-2: 16px;
@@ -259,7 +259,7 @@ h1 {
   font-weight: 400;
   font-style: bold;
   /* font-size: 7vw !important; */
-  font-size: clamp(2rem, 5vw, 5rem) !important;
+  font-size: clamp(2rem, 5vw, 2.475rem) !important;
 }
 
 h2 {
@@ -267,7 +267,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   /* font-size: 6vw !important; */
-  font-size: clamp(2rem, 4vw, 4rem) !important;
+  font-size: clamp(2rem, 4vw, 2.1rem) !important;
 }
 
 h3 {
@@ -275,29 +275,27 @@ h3 {
   font-weight: 400;
   font-style: normal;
   /* font-size: 5vw !important; */
-  font-size: clamp(1.5rem, 3vw, 3.5rem) !important;
+  font-size: clamp(1.5rem, 3vw, 1.75rem) !important;
 }
 
-p {
+p,
+button {
   /* font-size: 4vw !important; */
-  font-size: clamp(1.25rem, 1.5vw, 3rem) !important;
+  font-size: clamp(1rem, 2vw, 1.5rem) !important;
 }
 
 .important-para {
-  font-size: clamp(1.25rem, 2vw, 2rem) !important;
-}
-
-button {
-  /* font-size: 4vw !important; */
-  font-size: clamp(1rem, 1vw, 3rem) !important;
+  font-size: clamp(1rem, 2vw, 1.5rem) !important;
 }
 
 section {
-  padding-top: 10vw !important;
-  padding-bottom: 10vw !important;
+  padding-top: clamp(1rem, 3vw, 3rem) !important;
+  padding-bottom: clamp(1rem, 3vw, 3rem) !important;
 }
 
 body {
+  margin-left: auto !important;
+  margin-right: auto !important;
   font-family: "Taviraj", serif;
   font-weight: 400;
   font-style: normal;
